@@ -1,0 +1,68 @@
+body {
+    font: 11px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.clearfix {
+    clear: both;
+    height: 1px;
+    overflow: hidden;
+}
+
+#container {
+	margin: 10px auto;
+    width: 960px;
+}
+
+span.hlabel {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+span.hvalue {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#summ-header {
+    margin-top: 10px;
+}
+
+#list-simulator {
+    height: 150px;
+    border: 1px solid #ccc;
+}
+
+#result-chart {
+    border: 1px solid #ccc;
+    border-top: none;
+    padding: 2px;
+}
+
+#chart-container {
+    height: 300px;
+}
+
+#grid-header {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+#gird-container {
+    height: 200px;
+}
+
+span.xlabel {
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.cmd-btn {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    margin: 0 1px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+}
