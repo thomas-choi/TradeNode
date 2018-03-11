@@ -1,0 +1,41 @@
+div#container
+    
+    div#summ-header
+        span.hlabel Total P&L:
+        span#ttl-pnl.hvalue
+        span.hlabel Floating P&L:
+        span#flt-pnl.hvalue
+    
+    div#list-simulator
+    
+    div#result-chart
+        div#chart-header
+            span.xlabel Chart for:
+            span#chart-sim-name
+        div#chart-container
+        
+    div#result-grid
+        div#grid-header
+            span.xlabel Order Book for:
+            span#grid-sim-name
+        div#gird-container
+    
+    div#dialog-sim-params(title="Simulation Setting")
+        form.settings-form
+            table
+                tr
+                    td(width="150") S_Name
+                    td 
+                        span#sp-sname
+                        input(type="hidden", name="sName")
+        hr
+        ul.ds-settings
+            li
+                input#ds-realdata(type="radio", name="dataSource", value="real", checked)
+                label(for="ds-realdata") Real Data
+            li
+                input#ds-simudata(type="radio", name="dataSource", value="sim")
+                label(for="ds-simudata") Simuation Data
+                input#ds-datepicker(type="text", name="dateOfSimuData", readonly)
+                
+script(src="/javascripts/main.js")
